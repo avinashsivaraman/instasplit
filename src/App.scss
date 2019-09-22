@@ -8,3 +8,39 @@ footer {
 video {
   object-fit: cover;
 }
+
+
+#customized-menu {
+  width: 50vw;
+}
+
+.overview {
+  height: 20vh;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+.overflow-list {
+  height: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.overflow-list-item {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid grey;
+  padding: 1rem;
+}
+
+.settle-up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+}

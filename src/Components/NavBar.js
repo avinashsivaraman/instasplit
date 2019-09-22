@@ -11,7 +11,7 @@ export default function ButtonAppBar() {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">
+          <Typography variant="h5">
             Instasplit
           </Typography>
         </Toolbar>
